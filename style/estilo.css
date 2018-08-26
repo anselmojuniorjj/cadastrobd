@@ -1,0 +1,407 @@
+body {
+    background: #DCDCDC;
+}
+
+body.fundo{
+    background-image: url(../img/paris.jpg);
+    background-repeat: no-repeat;
+    background-position: 150px 200px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px 0px 20px 60px;
+}
+
+td{
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px 5px 8px 15px;
+    width: 220px;
+    text-transform: capitalize;
+}
+
+th {
+    background: #A9A9A9;
+    border-style: inset;
+    text-align: left;
+    padding: 8px 5px 8px 15px;
+    width: 220px;
+    text-transform: capitalize;
+}
+
+tr{
+    background-color: #ffffff;
+}
+
+span {
+    font-size: 20px;
+}
+
+.borda{
+    border-style: ridge;
+    border-width: 1px;
+    width: auto;
+    margin: 10px;
+    padding: 15px 5px 20px 8px;
+    color: blue;
+}
+
+p.captalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+div.width {
+    float: left;
+    margin: 0px 100px 5px 10px;
+    padding: 50px;
+    width: 350px;
+}
+
+div.dados {
+    float: left;
+    width: 160px;
+    margin: 15px 50px 10px 10px;
+    padding: 5px 10px 5px 10px;
+    background: white;
+}
+
+div.exclusao {
+    margin: 140px 0px 0px 0px;
+}
+
+.textcenter {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: #FFFF00;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botaocab {
+    width: 180px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #999999;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 4px 4px 4px gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butenviar {
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: #6699CC ;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 8px 8px 5px gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butenviar:hover{
+    color: black;
+}
+
+.buttopo {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    border-radius: 8px;
+    border-style: outset;
+    box-shadow: 8px 8px 5px gray;
+    color: black;
+    padding: 15px 32px 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+div.topo {
+    height: auto;
+    width: auto;
+    margin: 30px 15px 30px 15px;
+    padding: 10px 0px 10px 0px;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: ridge;
+    background: #F0F8FF;
+}
+
+select.listaexcluir {
+    margin: 30px 0px 8px 30px;
+    width: 300px;
+    height: 25px;
+}
+
+.image{
+    margin: 50px 50px 10px 350px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-color: #333333;
+    color: white;
+    padding: 5px;
+    width: 550px;
+}
+
+.imageindex{
+    float: left;
+    margin: 50px 50px 10px 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-color: #333333;
+    color: white;
+    padding: 5px;
+    width: 550px;
+}
+
+.botaoform {
+    float: left;
+    margin: 450px 0px 0px 0px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/*----------pág. exclusao--------------*/
+
+.butcancelar {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 150px;
+    background-color: #FFFF00;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 4px 4px 4px gray;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butcancelar:hover{
+    color: green;
+}
+
+.butexcluir {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 150px;
+    background-color: #DC143C;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 4px 4px 4px gray;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butexcluir:hover{
+    color: #ffffff;
+}
+
+div.botaocancel {
+    float: left;
+    margin-left: 20px;
+}
+
+div.botaoexc {
+    float: left;
+}
+
+div.confirm{
+    margin: 40px 0px 0px 40px;
+}
+
+/*------------------Fim pág. exclusao-----------*/
+
+div.cabecalho{
+    float: left;
+    margin-left: 20px;
+}
+
+table.listar{
+    margin-top: 160px;
+}
+
+/*-------------------pág. listaexc--------------*/
+
+div.form{
+    float: left;
+    margin: 0px 0px 0px 60px;
+}
+
+p.botaosel{
+    float: right;
+    margin: 20px 0px 0px 30px;
+}
+
+.butselect{
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 160px;
+    height: 40px;
+    background-color: #6699CC;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 2px 2px 2px gray;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butselect:hover{
+    color: black;
+}
+
+div.selecione{
+    float: left;
+    margin: 40px 500px 0px 80px;
+}
+
+/*-------fim-----------*/
+
+/*-----------------------alteracao---------------------*/
+
+.butcancel{
+    float: left;
+    margin: 10px 0px 5px 5px;
+    width: 140px;
+    height: 40px;
+    background-color: #FFFF00;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 4px 4px 4px gray;
+    color: black;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butcancel:hover{
+    color: green;
+}
+
+.botaoalterar{
+    float: left;
+    margin: 10px 0px 10px 10px;
+    width: 140px;
+    height: 40px;
+    background-color: #6699CC ;
+    border-radius: 8px;
+    border-style: ridge;
+    box-shadow: 4px 4px 4px gray;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botaoalterar:hover{
+    color: black;
+}
+
+
+/*----------------index------------------*/
+
+fieldset.senha{
+    float: left;
+    margin: 100px 250px 0px 60px;
+    width: 280px;
+    font-size: 25px;
+}
+
+/*------------botão dropdown-----------*/
+
+
+/*------------------cadastro senha--------------------*/
+fieldset.senha{
+    float: left;
+    margin: 80px 250px 0px 60px;
+    width: 280px;
+    font-size: 20px;
+}
+
+/*-----------bootstrap------*/
+
+.pad{
+    padding: 5px 200px 5px 80px;
+}
+
+.margin{
+    margin: 30px 5px 0px 5px;
+}
+
+.imgIndex{
+    margin: 70px 0px 0px 100px;
+}
+
+h2.index{
+    text-align: center;
+}
+
+.marginTop{
+    margin-top: 80px;
+}
